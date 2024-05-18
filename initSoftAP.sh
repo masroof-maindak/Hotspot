@@ -4,7 +4,7 @@ ap=wlan0_ap # virtual
 p2p=wlan0   # physical, replace with your actual interface
 
 # TODO: Make firewalld allow dnsmasq DHCP to 'pass' safely.
-# firewall-cmd --zone=nm-shared --add-interface=ap0
+# firewall-cmd --zone=nm-shared --add-interface=ap0 (?)
 systemctl stop firewalld
 
 echo "Creating virtual interface for AP"
