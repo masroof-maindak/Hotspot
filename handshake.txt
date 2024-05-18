@@ -1,0 +1,17 @@
+No.     Time           Source                Destination           Protocol Length Info
+    280 12.678385990   10.0.0.10             10.0.1.1              WireGuard 190    Handshake Initiation, sender=0x220EE10D
+
+Frame 280: 190 bytes on wire (1520 bits), 190 bytes captured (1520 bits) on interface wlan0_ap, id 0
+Ethernet II, Src: 82:53:0d:f9:cc:1e (82:53:0d:f9:cc:1e), Dst: 12:34:56:78:ab:ce (12:34:56:78:ab:ce)
+Internet Protocol Version 4, Src: 10.0.0.10, Dst: 10.0.1.1
+User Datagram Protocol, Src Port: 50303, Dst Port: 51820
+WireGuard Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    281 12.679709380   10.0.1.1              10.0.0.10             WireGuard 134    Handshake Response, sender=0x835DE657, receiver=0x220EE10D
+
+Frame 281: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits) on interface wlan0_ap, id 0
+Ethernet II, Src: 12:34:56:78:ab:ce (12:34:56:78:ab:ce), Dst: 82:53:0d:f9:cc:1e (82:53:0d:f9:cc:1e)
+Internet Protocol Version 4, Src: 10.0.1.1, Dst: 10.0.0.10
+User Datagram Protocol, Src Port: 51820, Dst Port: 50303
+WireGuard Protocol
