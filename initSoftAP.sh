@@ -1,5 +1,7 @@
 #!/bin/bash
- 
+
+if [ "$(id -u)" -ne 0 ]; then echo "Please run as root." >&2; exit 1; fi
+
 ap=wlan0_ap # virtual
 p2p=wlan0   # physical, replace with your actual interface
 
