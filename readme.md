@@ -1,6 +1,15 @@
 ## Pre-Requisites
-1. Device supports access point mode - `iw phy | grep "Supported interface modes -A 8"`
-2. Device supports simultaneous AP/P2P modes - `iw phy | grep "interface combinations" -A 3`
+
+#### Hardware
+
+1. Access Point mode `iw phy | grep "Supported interface modes" -A 8`
+2. Simultaneous AP/P2P `iw phy | grep "interface combinations" -A 3`
+
+#### Software Dependencies
+1. dnsmasq
+2. hostapd
+3. iptables
+
 
 ## First time setup
 
