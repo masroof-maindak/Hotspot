@@ -17,7 +17,7 @@
 
 ```sh
 sudo -s
-sudo mv unmanaged.conf /etc/NetworkManager/conf.d/
+mv unmanaged.conf /etc/NetworkManager/conf.d/
 systemctl restart NetworkManager
 ```
 
